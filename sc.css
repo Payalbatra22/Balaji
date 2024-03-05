@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.Protfolio-Container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.nvlist{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+}
+.nvlist li{
+    list-style: none;
+}
+.nvlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: wheat;
+}
+.left,.right{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+background: #262525;
+width: 70%;
+padding-left: 3rem;
+}
+.right{
+    background-color: #16098b;
+width: 30%;
+}
+.icon .fa-brands{
+    color: rgb(204, 179, 245);
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: linear-gradient(#fff, rgb(61, 11, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    height: 100vh;
+}
+.content{
+    margin-left: 4rem;
+}
+.content p{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+.content h1{
+    font-size: 4rem;
+    color: rgb(235, 231, 241);
+}
+.content .d{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+    max-width: 30rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+
+.btn button{
+    border: .1rem;
+    border-color: Solid rgb(39, 39, 241);
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+button:nth-child(1){
+    background: hsl(251, 89%, 52%);
+    color: #262525;
+}
+button:nth-child(2){
+background-color: transparent;
+color: rgb(19, 19, 209);
+margin-left: 2rem;
+}
+button:nth-child(1):hover{
+    background-color: transparent;
+    color: rgb(27, 27, 214);
+    
+}
+button:nth-child(2):hover{
+    background-color: transparent;
+    color: rgb(74, 25, 207);
+    
+}
+.icon .fa-brands:hover{
+    background-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:rgb(25, 25, 230);
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 56%;
+    left: 74%;
+    transform: translate(-50%,-50%);
+    border-width: 3rem;
+    border-color: rgb(21, 21, 221);
+}
+.circle:nth-child(1){
+    background-color:linear-gradient(90deg, rgba(81, 19, 224, 0.432) 50% )
+    width: 35rem;
+}
+.circle:nth-child(2){
+    width: 25%;
+    background-image: url(pyl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 4rem #fff;
+    inset: 0 0 2rem #16098b,
+    0 0 2rem rgb(18, 18, 207),
+    0 0 3rem rgb(12, 12, 224);
+
+}
+.content p:hover{
+    color: rgb(204, 179, 245);
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: linear-gradient(#fff, rgb(61, 11, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nvlist li a:hover{
+    color: rgb(204, 179, 245);
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: linear-gradient(#fff, rgb(61, 11, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1:hover{
+    color: rgb(204, 179, 245);
+    cursor: pointer;
+    background: linear-gradient(#fff, rgb(61, 11, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.right:hover{ color: rgb(112, 38, 231);
+    cursor: pointer;
+    background-image: rgb(15, 15, 143);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
